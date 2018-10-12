@@ -13,7 +13,7 @@ class App extends Component {
         </div>
         <div className="row rowCups">
           <img className="cups" src={cup}></img>
-          <img className="cups" src={cup}></img>
+          <img className="cups bounce" src={cup}></img>
           <img className="cups" src={cup}></img>
         </div>
       </div>
