@@ -12,7 +12,6 @@ class App extends Component {
     hiddenTiger: 'tiger'  }
 
   getBouncing = () => {
-    var button = document.quer
     this.setState({bounceCup: 'cups bounce'})
     
   }
