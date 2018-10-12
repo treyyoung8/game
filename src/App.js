@@ -1,10 +1,23 @@
 import React, { Component } from 'react';
 import './App.css';
-// import Cups from './components/Cups';
+import Cup from './components/Cup'
 import Header from './components/Header';
-import cup from './assets/cup.png'
 
 class App extends Component {
+
+
+
+
+  state = {
+    normalCup: 'cups',
+    bounceCup: 'cups'
+  }
+
+  getBouncing = () => {
+    this.setState({bounceCup: 'cups bounce'})
+  }
+
+
   render() {
     return (
       <div className="App">
@@ -12,12 +25,12 @@ class App extends Component {
           <Header />
         </div>
         <div className="row rowCups">
-          <img className="cups" src={cup}></img>
-          <img className="cups bounce" src={cup}></img>
-          <img className="cups" src={cup}></img>
-        </div>
+          <Cup cupStatus={this.state.normalCup} />
+          <Cup cupStatus={this.state.bounceCup} />
+          <Cup cupStatus={this.state.normalCup} />
+          </div>
         <div>
-          <button className="start">Start Game</button>
+          <button onClick={this.getBouncing} className="start">Start Game</button>
         </div>
       </div>
     );
