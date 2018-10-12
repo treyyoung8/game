@@ -13,7 +13,6 @@
 .rowCups {
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .header {
@@ -48,7 +47,7 @@ button {
 }
 
 .bounce {
-    animation: bounce 5s 1;
+    animation: bounce 3s 1;
 }
 
 @-webkit-keyframes blackWhite {
