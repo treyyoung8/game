@@ -5,8 +5,9 @@
 }
 
 .cups {
-    height: 200px;
+    height: 260px;
     width: auto;
+    z-index: 3;
 }
 
 .rowCups {
@@ -21,6 +22,10 @@
 
 .start {
     background-color: orange;
+}
+
+button {
+    margin-top: 40em; 
 }
 
 @keyframes bounce {
@@ -98,4 +103,19 @@
     -webkit-animation-name: blackWhite;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-duration: 2s;
+}
+
+img {
+    position: absolute;
+    /* top: 25px;
+    left: 25px; */
+}
+
+
+.tiger {
+    z-index: 1;
+    height: 80px;
+    width: auto;
+    padding-top: 120px;
+    padding-left: 50px;
 }

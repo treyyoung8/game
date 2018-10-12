@@ -7,8 +7,8 @@ class App extends Component {
 
   state = {
     normalCup: 'cups',
-    bounceCup: 'cups'
-  }
+    bounceCup: 'cups',
+    hiddenTiger: 'tiger'  }
 
   getBouncing = () => {
     this.setState({bounceCup: 'cups bounce'})
@@ -17,6 +17,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <div className="column">
         <div className="header">
           <Header />
         </div>
@@ -27,6 +28,7 @@ class App extends Component {
           </div>
         <div>
           <button onClick={this.getBouncing} className="start">Start Game</button>
+        </div>
         </div>
       </div>
     );
