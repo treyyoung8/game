@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-// import Cups from './components/Cups';
 import Header from './components/Header';
 import cup from './assets/cup.png'
 
