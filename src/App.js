@@ -8,12 +8,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <Header />
-      <div className="row">
-      <img src={cup}></img>
-      <img src={cup}></img>
-      <img src={cup}></img>
-      </div>
+        <div className="header">
+          <Header />
+        </div>
+        <div className="row rowCups">
+          <img className="cups" src={cup}></img>
+          <img className="cups" src={cup}></img>
+          <img className="cups" src={cup}></img>
+        </div>
       </div>
     );
   }

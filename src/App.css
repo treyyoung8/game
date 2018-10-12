@@ -1,3 +1,46 @@
 .App {
+    height: 100vh;
     text-align: center;
+    background-color: hotpink;
 }
+
+.cups {
+    height: 200px;
+    width: auto;
+}
+
+.rowCups {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.header {
+    color: green;
+}
+
+/* @-webkit-keyframes blackWhite {
+    0% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: white;
+    }
+
+    51% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: black;
+    }
+}
+
+.header {
+    height: 100px;
+    background-color: black;
+    -webkit-animation-name: blackWhite;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s;
+} */
