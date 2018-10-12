@@ -16,6 +16,9 @@ class App extends Component {
           <img className="cups bounce" src={cup}></img>
           <img className="cups" src={cup}></img>
         </div>
+        <div>
+          <button className="start">Start Game</button>
+        </div>
       </div>
     );
   }
