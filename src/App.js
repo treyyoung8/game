@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
+import Footer from './components/Footer'
 import Cup from './components/Cup'
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
     this.setState({bounceCup: 'cups bounce'})
     
   }
+
 
   render() {
     return (
@@ -31,6 +33,7 @@ class App extends Component {
         <div>
           <button onClick={this.getBouncing} className="start">Start Game</button>
         </div>
+        <Footer />
         </div>
       </div>
     );
