@@ -25,7 +25,7 @@
 }
 
 button {
-    margin-top: 40em; 
+    margin-top: 30em; 
 }
 
 @keyframes bounce {
@@ -118,4 +118,9 @@ img {
     width: auto;
     padding-top: 120px;
     padding-left: 50px;
+}
+
+.footer {
+    width: 100%;
+    right: 0px;
 }
