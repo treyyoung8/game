@@ -5,9 +5,6 @@ import Cup from './components/Cup'
 
 class App extends Component {
 
-
-
-
   state = {
     normalCup: 'cups',
     bounceCup: 'cups'
@@ -16,7 +13,6 @@ class App extends Component {
   getBouncing = () => {
     this.setState({bounceCup: 'cups bounce'})
   }
-
 
   render() {
     return (
