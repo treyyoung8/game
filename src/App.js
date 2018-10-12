@@ -10,8 +10,8 @@ class App extends Component {
 
   state = {
     normalCup: 'cups',
-    bounceCup: 'cups'
-  }
+    bounceCup: 'cups',
+    hiddenTiger: 'tiger'  }
 
   getBouncing = () => {
     this.setState({bounceCup: 'cups bounce'})
